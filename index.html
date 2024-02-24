@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Web Design</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Responsive Web Design</title>
+        <!-- link of css file -->
+        <link rel="stylesheet" href="style.css">
+        <!-- box icons link -->
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        </head>
+        <body>
+            <!-- Nav Bar -->
+            <header>
+            <a href="#" class="logo">
+                <img src="image/logo.png" alt="">
+            </a>
+            <!-- menu icon -->
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <!-- links -->
+            <ul class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#customers">Customers</a></li>
+            </ul>
+            <!-- header icon -->
+            <div class="headerIcon">
+                <i class='bx bx-cart-alt' id="cart-icon"></i>
+                <i class='bx bx-search' id="search-icon"></i>
+            </div>
+            <!-- search bar -->
+            <div class="searchBar">
+                <input type="search" name="" id="" placeholder="Search Here....">
+            </div>
+        </header>
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="homeText">
+                <h1>Start your day <br>with coffee</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi soluta cupiditate tempora fugiat voluptatem quibusdam atque mollitia! Nulla, assumenda dolorum!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <div class="homeimg">
+                <img src="image/main.png" alt="">
+            </div>
+        </section>
+        <!-- link to js file -->
+        <script src="script.js"></script>
+    </body>
 </html>
