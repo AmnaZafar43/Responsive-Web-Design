@@ -215,3 +215,40 @@ header {
   color: white;
   transition: 0.2s all linear;
 }
+.customersContainer img{
+  width: 300px;
+}
+.customersContainer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.customersContainer .box{
+  padding: 20px;
+  box-shadow: 2px 2px 10px 4px rgb(238, 237, 234);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.stars .bx{
+  color: #bc9667;
+}
+.customersContainer .box p{
+  font-size: 0.938rem;
+}
+.customersContainer .box h2{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+.customersContainer .box img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.customersContainer .box:hover{
+  background: #edeae3;
+  transition: 0.2s all linear;
+  cursor: pointer;
+}
