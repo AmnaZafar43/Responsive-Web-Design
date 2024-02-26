@@ -336,6 +336,10 @@ ul {
   font-size: 20px;
   margin-right: 1rem;
 }
+.footerBox ul{
+    display: flex;
+    flex-direction: column;
+  }
 /* making responsive */
 @media screen and (max-width: 768px) {
   .navbar {
@@ -425,8 +429,9 @@ ul {
   .i-color {
     color: #bc9667 !important;
   }
-}
-@media screen and (max-width: 1150px) {
-  .about {
+  .footerBox ul{
+    display: flex;
+    flex-direction: column;
   }
+  
 }
