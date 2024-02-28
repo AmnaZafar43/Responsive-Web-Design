@@ -297,6 +297,20 @@ ul {
   font-size: 0.938rem;
   margin-bottom: 10px;
 }
+.footerBox h3 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footerBox li a {
+  color: black;
+}
+.footerBox li a:hover {
+  color: #bc9667;
+}
+.footerBox ul {
+  display: flex;
+  flex-direction: column;
+}
 .social {
   display: flex;
   align-items: center;
@@ -313,16 +327,6 @@ ul {
   background: #bc9667;
   color: #fff;
 }
-.footerBox h3 {
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.footerBox li a {
-  color: black;
-}
-.footerBox li a:hover {
-  color: #bc9667;
-}
 .contact {
   display: flex;
   flex-direction: column;
@@ -336,10 +340,6 @@ ul {
   font-size: 20px;
   margin-right: 1rem;
 }
-.footerBox ul{
-    display: flex;
-    flex-direction: column;
-  }
 /* making responsive */
 @media screen and (max-width: 768px) {
   .navbar {
@@ -429,9 +429,8 @@ ul {
   .i-color {
     color: #bc9667 !important;
   }
-  .footerBox ul{
+  .footerBox ul {
     display: flex;
     flex-direction: column;
   }
-  
 }
